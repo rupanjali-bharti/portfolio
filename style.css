@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil&family=Dancing+Script&family=EB+Garamond:ital,wght@1,600&family=Ysabeau+SC:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+/** font selector**/
+h4{
+    color:#5569dc;
+    font-size: 1.2rem;
+    font-family: monospace;
+    letter-spacing: 3px;
+    height: 4rem;
+    font-weight: 200;
+}
+h3{
+    color:#5569dc;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    height: 3rem;
+}
+p{
+    color:black;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height:39px ;
+}
+/** end here**/
+
+.img{
+    background-image: url("office-desk.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 760px;
+    display: flex;
+    
+}
+
+.navbar{
+    background-color: #5569dc;
+    height: 72px;
+    width: 1112px;
+    text-align: center;
+    
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    padding-top: 10px;
+    position: relative;
+    top: 25%;
+}
+.sidebar{
+    width:352px;
+    background-color: #5569dc;
+    height:680px ;
+    float: right;
+    padding: 80px 10px 0 10px ;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    
+}
+.textbox{
+    height: 688px;
+    width: 100%;
+    background-color: rgba(82, 93, 137, 0.387);
+    float: left;
+    overflow: hidden;
+    
+}
+.text{
+    margin-top:350px ;
+    margin-left: 200px;
+}
+.text h1{
+    line-height: 0.9em;
+    font-size: 88px;
+}
+.text h3{
+    font-size: 27px;
+    font-family: monospace;
+    letter-spacing: 7px;
+    line-height: 50px;
+    color: white;
+}
+.text p{
+    letter-spacing: 0.03em;
+    font-size: 20px;
+    line-height: 3em;
+    margin-top: 20px;
+    font-family:sans-serif;
+    color: white;
+}
+.photobox{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-image: url("myimg.jpg");
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 30%;
+    top: 0%;
+}
+.icons{
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+.sidebar h2{
+    padding: 30px 0 20px;
+    color: white;
+}
+.sidebar p{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    color: white;
+
+}
+.sidebar span{
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+.sidebar button{
+    height: 50px;
+    width: 160px;
+    background-color: white;
+    color: #5569dc;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: none;
+    margin-top: 40px;
+}  
+.sidebar i{
+    font-size: 1.2rem;
+    padding: 13px;
+}
+/** about page2 **/
+.page2{
+    height: 483px;
+    
+    background-color: rgba(213, 217, 241, 0.679);
+}
+.aboutbox{
+    height: 300px;
+    width: 800px;
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+
+.aboutbox p{
+    color:black;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height:39px ;
+}
+
+/** PAGE 3 STYLING**/
+.page3{
+    position: relative;
+    height: 673px;
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    top: 10%;
+}
+p{
+    font-size: 1rem;
+}
+.year1,
+.year2,
+.year3{
+    padding-bottom: 36px;
+}
+
+.education{
+    position: relative;
+    top: 15%;
+    left: 30%;
+}
+.expert{
+    position: relative;
+    top: 15%;
+    left: 40%;
+}
+ul{
+    color: black;
+}
+/** SKILLS PAGE **/
+.skillpage{
+    height: 668px;
+    margin-top: 120px;
+    padding-left: 270px;
+}
+.display1,
+.language{
+    display: flex;
+    margin-top: 30px;
+}
+.graph{
+    height: 2px;  
+    border: 1.5px solid #5569dc;
+    margin-bottom: 35px;
+    margin-left: 100px;
+    margin-top: 22px;
+}
+.one{
+    width: 600px;
+    background-color: #5569dc;
+}
+.two{
+    width: 50%;
+    background-color: #5569dc;
+}
+.three{
+    width: 70%;
+    background-color: #5569dc;
+}
+.four{
+    width: 85%;
+    background-color: #5569dc;
+}
+.talent2 p{
+    margin-right: 100px;
+}
+/** AWArd page 2nd last page**/
+.awardpage{
+    height: 400px;
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 260px;
+    margin-top: 50px;
+}
+/** last pannel**/
+.lpanel{
+    height: 300px;
+    background-color: rgba(213, 217, 241, 0.679);
+    color: rgb(24, 22, 34);
+    display: flex;
+    text-align: center;
+    
+}
+.unknown{
+    display: flex;
+    width: 700px;
+    margin-left: 17%;
+}
+.lpanel h2{
+    color: rgb(47, 38, 88);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.lpanel button{
+    height: 50px;
+    width: 180px;
+    background-color: #5569dc;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 43%;
+}
+.lpanel button:hover{
+    color: rgb(213, 219, 245);
+    background-color: #5569dcd4;
+}
+.top i{
+    color: black;
+    font-size: 2rem;
+    margin-left: 150px;
+    margin-top: 95px;
+}
+/** footer **/
+.foot{
+    height: 45px;
+    background-color: #5569dc;
+    padding-left: 16%;
+    padding-top: 25px;   
+    justify-content: center;
+    font-size: 1.1rem;
+}
